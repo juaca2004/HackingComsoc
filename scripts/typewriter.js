@@ -9,7 +9,7 @@ Tres puertas se abren ante ti. Cada una guarda un reto:
 - Reto 3: W3Challs (crypto)
 
 Captura evidencia en screenshots y demuestra tu habilidad.
-Las primeras 10 personas que envien evidencia de haber completado los 3 retos se llevaran un premio.
+Las primeras 3 personas que envien evidencia de haber completado los 3 retos se llevaran un premio.
 Envia la evidencia al siguiente link.
 El tiempo no espera. La prueba comienza ahora.
 
