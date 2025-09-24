@@ -1,0 +1,62 @@
+/* terminal.css */
+:root{
+  --green: #00ff66;
+  --bg: #000000;
+  --glass: rgba(0,0,0,0.7);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);font-family:"Courier New",monospace;color:var(--green);}
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  background-color:#000;
+  /* background image optional: images/matrix-bg.gif */
+  background-image: url("../images/matrix-bg.gif");
+  background-repeat:repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.terminal{
+  width:min(980px,95%);
+  max-height:90vh;
+  overflow:auto;
+  padding:20px;
+  border:2px solid rgba(0,255,102,0.12);
+  background:linear-gradient(180deg, rgba(0,0,0,0.85), rgba(0,0,0,0.95));
+  box-shadow:0 0 30px rgba(0,255,102,0.04);
+  border-radius:8px;
+  position:relative;
+}
+
+/* Typewriter text */
+.typewriter{
+  white-space:pre-wrap;
+  font-size:16px;
+  line-height:1.4;
+  min-height:200px;
+  margin:0 0 18px 0;
+}
+
+/* Controls / hint */
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+#revealBtn{
+  background:transparent;border:1px solid rgba(0,255,102,0.12);color:var(--green);padding:8px 12px;border-radius:6px;cursor:pointer;
+}
+.hint{opacity:0.6;margin:0;font-size:13px}
+
+/* Hidden links (default hidden) */
+.hidden-links{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.secret-link{
+  display:none;
+  color:var(--green);
+  text-decoration:none;
+  border:1px dashed rgba(0,255,102,0.07);
+  padding:8px 10px;border-radius:6px;
+}
+.secret-link:focus, .secret-link:hover{outline:none;text-decoration:underline}
+
+/* Footer */
+.footer{position:sticky;bottom:0;margin-top:18px;padding-top:12px;border-top:1px solid rgba(0,255,102,0.03);font-size:12px;opacity:0.85}
