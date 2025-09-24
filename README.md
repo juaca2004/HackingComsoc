@@ -1,4 +1,4 @@
-# Proyecto Cicada 3301 - Web del Reto
+# Proyecto Comsoc - Web del Reto
 
 Estructura del proyecto lista para desplegar.
 
