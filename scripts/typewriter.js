@@ -5,8 +5,8 @@ pueden descifrar los misterios ocultos en este laberinto virtual.
 
 Tres puertas se abren ante ti. Cada una guarda un reto:
 - Reto 1: AI / Prompt Injection
-- Reto 2: SQL Injection (PortSwigger)
-- Reto 3: W3Challs (crypto, stego, forense)
+- Reto 2: SQL Injection 
+- Reto 3: W3Challs (crypto)
 
 Captura evidencia en screenshots y demuestra tu habilidad.
 Las primeras 10 personas que envien evidencia de haber completado los 3 retos se llevaran un premio.
